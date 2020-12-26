@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 CHERISH_BUILD_TYPE :=OFFICIAL
-CHERISH_WITHGAPPS=true
+#CHERISH_WITHGAPPS=true
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := cherish_mido
